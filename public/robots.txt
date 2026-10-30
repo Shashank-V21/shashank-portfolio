@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://shashank-portfolio-pied.vercel.app/sitemap.xml
