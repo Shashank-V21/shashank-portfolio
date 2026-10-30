@@ -1,0 +1,646 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 5615
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F9 8 Tf
+9.1999999999999993 TL
+0.431 g
+174.6777952755905972 807.8742519685039269 Td
+(TIJER || ISSN 2349-9249 || © June 2023 Volume 10, Issue 6 || www.tijer.org) Tj
+ET
+0.78 G
+0.5669291338582678 w
+56.6929133858267775 802.2049606299211746 m
+538.5826771653544256 802.2049606299211746 l
+S
+BT
+/F2 15 Tf
+17.25 TL
+0.059 g
+129.1877952755905596 768.1892125984252289 Td
+(AI SMART MIRROR USING RASPBERRY PI 3B+) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.157 g
+86.9752952755906534 739.8427559055118081 Td
+(Manju Shree Yadav D, Purushotham K, Shashank V, Gowrish HB, Pallavi HS, Srinivasappa KV) Tj
+ET
+BT
+/F3 8 Tf
+9.1999999999999993 TL
+0.314 g
+69.3577952755907745 718.5829133858267141 Td
+(Department of Computer Science and Engineering, Government Polytechnic, K.G.F coromandel post, Kolar Gold Fields - 563118,) Tj
+199.3599999999998147 -9.1999999999999993 Td
+(Karnataka, India) Tj
+ET
+0.71 G
+56.6929133858267775 676.0632283464566399 m
+538.5826771653544256 676.0632283464566399 l
+S
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+56.6929133858267775 659.0553543307086102 Td
+(ABSTRACT) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.196 g
+7.5620000000000083 Tw
+56.6929133858267775 644.8821259842519567 Td
+(In a fast-paced world where time has become a major constraint, every minute counts for busy people. With the help of) Tj
+7.0186111111111344 Tw
+0. -9.7749999999999986 Td
+(interactive computing and systems that we use in our daily lives, lifestyle and quality are changing dramatically. Many devices) Tj
+6.2062500000000131 Tw
+0. -9.7749999999999986 Td
+(and products based on this interactive technology were introduced to the world. The AI Smart Mirror is a project that combines) Tj
+7.5350000000000188 Tw
+0. -9.7749999999999986 Td
+(the functionality of a traditional mirror with the intelligence of artificial intelligence. The project uses a Raspberry Pi 3B+, a) Tj
+8.5344444444444623 Tw
+0. -9.7749999999999986 Td
+(two-way mirror, a display, a camera, and various sensors to create a smart mirror that can display information, provide) Tj
+7.3806250000000269 Tw
+0. -9.7749999999999986 Td
+(assistance, and improve everyday routines. The mirror can display the time, weather, news, and other personalized information.) Tj
+6.7966666666666873 Tw
+0. -9.7749999999999986 Td
+(It can also provide assistance through voice commands, facial recognition, and gesture recognition. The project can be used in) Tj
+7.7175000000000225 Tw
+0. -9.7749999999999986 Td
+(homes, offices, and public spaces. Users can interact with the mirror by issuing commands, allowing for a more interactive) Tj
+0 Tw
+0. -9.7749999999999986 Td
+(experience.) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.196 g
+56.6929133858267775 523.559291338582625 Td
+(Keywords: ) Tj
+ET
+BT
+/F3 8.5 Tf
+9.7749999999999986 TL
+0.196 g
+107.7165354330708738 523.559291338582625 Td
+(AI Smart Mirror, Raspberry Pi 3B+, Two-way mirror, Face Recognition, Voice Assistant, Motion Detection.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+56.6929133858267775 495.2128346456692043 Td
+(1. INTRODUCTION) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.216 g
+7.358611111111137 Tw
+56.6929133858267775 481.0396062992124939 Td
+(In the present world, time is a precious commodity, particularly for busy individuals. The advent of interactive computing and) Tj
+7.269062500000028 Tw
+0. -9.7749999999999986 Td
+(embedded systems has revolutionized our lifestyles and dramatically improved our quality of life. These technologies have given) Tj
+6.5292500000000135 Tw
+0. -9.7749999999999986 Td
+(rise to a wide range of devices and products that offer convenience, efficiency, and personal security. Whether at home or at) Tj
+9.8292307692307972 Tw
+0. -9.7749999999999986 Td
+(work, artificial intelligence and interactive computing have made business operations and multimedia entertainment incredibly) Tj
+0 Tw
+0. -9.7749999999999986 Td
+(easy for users.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.216 g
+7.141388888888911 Tw
+56.6929133858267775 410.1734645669290558 Td
+(One area where interactive technology can significantly impact our daily lives is in our grooming routines. People often spend) Tj
+7.8914705882353093 Tw
+0. -9.7749999999999986 Td
+(considerable time in front of mirrors, assessing their appearance, and performing various grooming tasks. This is a valuable) Tj
+10.58428571428575 Tw
+0. -9.7749999999999986 Td
+(opportunity to accomplish important activities. Enter the Smart Mirror—a remarkable innovation for busy individuals who) Tj
+6.8486111111111345 Tw
+0. -9.7749999999999986 Td
+(embrace multitasking and desire real-time updates. The Smart Mirror is not just an ordinary mirror; it incorporates features that) Tj
+0 Tw
+0. -9.7749999999999986 Td
+(display the date, time, weather updates, daily news headlines, which makes it easier to track tasks on the go.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.216 g
+7.1964705882353162 Tw
+56.6929133858267775 339.3073228346455608 Td
+(The Capstone project aims to develop an intelligent mirror equipped with facial recognition, a voice assistant, motion detection,) Tj
+9.2187500000000266 Tw
+0. -9.7749999999999986 Td
+(and other fundamental functions. The mirror's ability to recognize faces and detect motion improves user interaction and) Tj
+0 Tw
+0. -9.7749999999999986 Td
+(personalization, making it a valuable tool for home automation, office hubs, and interactive smart environments.) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.549 g
+278.5877952755905653 28.3466929133857093 Td
+(Page 1 of 2) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.549 g
+56.6929133858267775 28.3466929133857093 Td
+(TIJER Journal Center for Research Publications) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 6030
+>>
+stream
+0.5669291338582678 w
+0.71 G
+BT
+/F9 8 Tf
+9.1999999999999993 TL
+0.431 g
+174.6777952755905972 807.8742519685039269 Td
+(TIJER || ISSN 2349-9249 || © June 2023 Volume 10, Issue 6 || www.tijer.org) Tj
+ET
+0.78 G
+0.5669291338582678 w
+56.6929133858267775 802.2049606299211746 m
+538.5826771653544256 802.2049606299211746 l
+S
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+56.6929133858267775 773.8585039370078675 Td
+(2. APPROACH AND METHODOLOGY) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 g
+56.6929133858267775 759.6852755905511003 Td
+(2.1 Technology Stack) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+68.031496062992133 748.346692913385823 Td
+(• Raspberry Pi 3B+:) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+152.1557874015747984 748.346692913385823 Td
+(Core single-board computational platform managing sensory input-output \(GPIO\) and processing.) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+68.031496062992133 730.7718897637795408 Td
+(• Python:) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+110.5057874015748069 730.7718897637795408 Td
+(Primary programming language for developing automation scripts, API requests, and voice libraries.) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+68.031496062992133 713.1970866141731449 Td
+(• OpenCV:) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+115.2657874015748121 713.1970866141731449 Td
+(Computer vision framework enabling facial capture, user recognition, and motion algorithms.) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+68.031496062992133 695.6222834645668627 Td
+(• Natural Language Processing \(NLP\):) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+226.190787401574795 695.6222834645668627 Td
+(Responsible for voice parsing, intent classification, and command response routing.) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+68.031496062992133 678.0474803149605805 Td
+(• Sensor Integration:) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+156.6607874015747939 678.0474803149605805 Td
+(Uses PIR sensors to trigger display awakening upon presence detection for low-overhead) Tj
+T* (consumption.) Tj
+ET
+BT
+/F2 9 Tf
+10.3499999999999996 TL
+0.059 g
+56.6929133858267775 637.2285826771652637 Td
+(2.2 Methodology and Key Features) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+9.4933333333333536 Tw
+56.6929133858267775 625.8899999999998727 Td
+(The project follows an iterative development cycle. Steps include setting up Raspbian OS, configuring network interfaces,) Tj
+9.5676923076923401 Tw
+0. -9.7749999999999986 Td
+(building user configurations using HTML/CSS/JS interface, implementing voice engine with speech algorithms, integrating PIR) Tj
+9.3120000000000189 Tw
+0. -9.7749999999999986 Td
+(motion sensors, testing breathing cues, and running benchmarks. Daily updates serve news API endpoints, weather APIs,) Tj
+0 Tw
+0. -9.7749999999999986 Td
+(in-mirror compliments, and dynamic calendar synchronizations.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+56.6929133858267775 555.5907874015747439 Td
+(3. FINAL OUTPUT & RECOGNITION RESULTS) Tj
+ET
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+8.7250000000000085 Tw
+56.6929133858267775 541.4175590551180903 Td
+(Our fully realized Smart Mirror showcases structured columns for date, time, and custom local weather) Tj
+7.7328125000000014 Tw
+0. -12.0749999999999993 Td
+(notifications. When users step in path of the PIR motion sensor, the digital output wakes instantly. The) Tj
+10.8181818181818414 Tw
+0. -12.0749999999999993 Td
+(offline OpenCV facial classifier returns localized welcoming feedback \(e.g. 'Good morning, Shashank!'\),) Tj
+0 Tw
+0. -12.0749999999999993 Td
+(with custom widgets indexing Spotify music loops, respiratory support guides, and bullet headlines.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+56.6929133858267775 471.1183464566928478 Td
+(4. CONCLUSION & FUTURE WORK) Tj
+ET
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+8.6725000000000119 Tw
+56.6929133858267775 456.9451181102361375 Td
+(The AI Smart Mirror provides a lightweight, highly responsive, and modular computing platform built for) Tj
+12.2977272727272862 Tw
+0. -12.0749999999999993 Td
+(smart spaces. It successfully delivers an easy-to-use, multitasking command deck, maximizing user) Tj
+12.2465000000000259 Tw
+0. -12.0749999999999993 Td
+(efficiency without excessive overhead. Face recognition models provide accurate person identification,) Tj
+0 Tw
+0. -12.0749999999999993 Td
+(creating a personalized interface suitable for smart-homes and modern workspaces.) Tj
+ET
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+11.8395454545454797 Tw
+56.6929133858267775 395.1498425196849098 Td
+(Future scopes can expand custom control systems, implement tactile touchscreen sensors, integrate) Tj
+9.5491666666666841 Tw
+0. -12.0749999999999993 Td
+(secure smart-home dashboards \(HomeAssistant\), and create a unified companion mobile app for widget) Tj
+0 Tw
+0. -12.0749999999999993 Td
+(ordering and personal profile preferences.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 g
+56.6929133858267775 331.0868503937006722 Td
+(5. REFERENCES) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.059 g
+56.6929133858267775 316.9136220472439618 Td
+([1] M. Sh. Yadav, P. K, Shashank V, Gowrish H, P. HS, S. KV, 'AI Smart Mirror Using Raspberry Pi 3B+', TIJER International Research Journal,) Tj
+T* (Volume 10, Issue 6, June 2023.) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.059 g
+56.6929133858267775 291.1183464566928478 Td
+([2] Abdullahi Kafi, M. Shaikh Ashikul Alam, Saeed Bin Hossain, 'Artificially Intelligent Smart Mirror using Raspberry Pi', International Journal of) Tj
+T* (Computer Application \(IJCA\), 2018.) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.059 g
+56.6929133858267775 265.3230708661416202 Td
+([3] Chethan K, Adnan Ahmed, Nikhil Ganapathy, 'REFLECTA – Artificial Intelligence Based Smart Mirror', IJITEE, 2019.) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.549 g
+278.5877952755905653 28.3466929133857093 Td
+(Page 2 of 2) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.549 g
+56.6929133858267775 28.3466929133857093 Td
+(TIJER Journal Center for Research Publications) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20261030174927+05'30')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000012038 00000 n 
+0000013863 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000005819 00000 n 
+0000005956 00000 n 
+0000012101 00000 n 
+0000012226 00000 n 
+0000012356 00000 n 
+0000012489 00000 n 
+0000012627 00000 n 
+0000012751 00000 n 
+0000012880 00000 n 
+0000013012 00000 n 
+0000013148 00000 n 
+0000013276 00000 n 
+0000013403 00000 n 
+0000013532 00000 n 
+0000013665 00000 n 
+0000013767 00000 n 
+0000014113 00000 n 
+0000014199 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <57E06CE8F7D772B96865539B79FA3C68> <57E06CE8F7D772B96865539B79FA3C68> ]
+>>
+startxref
+14303
+%%EOF

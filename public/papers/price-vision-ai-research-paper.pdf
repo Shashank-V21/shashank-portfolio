@@ -1,0 +1,632 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 5704
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F9 8 Tf
+9.1999999999999993 TL
+0.063 0.486 0.255 rg
+155.237795275590571 813.5435433070865656 Td
+(International Research Journal of Modernization in Engineering Technology and Science) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.431 g
+174.7127952755905653 802.2049606299212883 Td
+(e-ISSN: 2582-5208 | Volume:08/Issue:01/January-2026 | www.irjmets.com) Tj
+ET
+0.78 G
+0.5669291338582678 w
+56.6929133858267775 796.5356692913385359 m
+538.5826771653544256 796.5356692913385359 l
+S
+BT
+/F2 15 Tf
+17.25 TL
+0.059 g
+91.9127952755906676 773.8585039370078675 Td
+(PRICE VISION AI: MULTIMODAL PRODUCT SEARCH AND) Tj
+-8.5500000000000806 -17.25 Td
+(CROSS-E-COMMERCE REAL-TIME BARGAIN COMPARISON) Tj
+183.6749999999999829 -17.25 Td
+(SYSTEM) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.157 g
+84.7427952755906375 711.4962992125983874 Td
+(Dr. Shashikumar D R, Prof. Sunil Kumar B, Shashank V, Sanjay KR, Sanjay P, Vikas Gowda GN) Tj
+ET
+BT
+/F3 8 Tf
+9.1999999999999993 TL
+0.314 g
+117.3977952755906955 690.2364566929134071 Td
+(Department of Computer Science and Engineering, Sai Vidya Institute of Technology, Bengaluru, India) Tj
+ET
+0.71 G
+56.6929133858267775 660.4726771653542983 m
+538.5826771653544256 660.4726771653542983 l
+S
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+56.6929133858267775 643.4648031496062686 Td
+(ABSTRACT) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.196 g
+9.1264705882353088 Tw
+56.6929133858267775 629.291574803149615 Td
+(As e-commerce websites expand rapidly, consumers are confronted with limited ability to find the best deals based on) Tj
+11.4115384615384894 Tw
+0. -9.7749999999999986 Td
+(fragmented prices, concealed shipping fees, uncertain delivery periods, and seller reliability inconsistency. Current price) Tj
+6.3575000000000186 Tw
+0. -9.7749999999999986 Td
+(comparison systems mainly rely on the cheapest sticker price, ignoring other factors that affect the ultimate buying decision. This) Tj
+5.340681818181837 Tw
+0. -9.7749999999999986 Td
+(paper introduces Price Vision AI, a system powered by AI that allows users to upload an image of a product, identify the product) Tj
+11.2840909090909562 Tw
+0. -9.7749999999999986 Td
+(automatically using vision-language models \(CLIP/BLIP\), normalize product information, retrieve up-to-date pricing information) Tj
+6.7919444444444581 Tw
+0. -9.7749999999999986 Td
+(from large online marketplaces \(Flipkart, Amazon\), and calculate the actual best offer by taking into account final price, coupon) Tj
+7.8375000000000181 Tw
+0. -9.7749999999999986 Td
+(discount, delivery time, shipping fees, and seller reputation. The system is built with FastAPI \(backend\), Playwright \(scraping\),) Tj
+9.5088461538461768 Tw
+0. -9.7749999999999986 Td
+(React \(frontend\), and Redis/Postgres \(data management\). The most important features are watchlists, price-drop notifications,) Tj
+8.5470000000000201 Tw
+0. -9.7749999999999986 Td
+(and historical price trending. Experimental testing shows high recognition accuracy of products \(>90%\), quick response times) Tj
+0 Tw
+0. -9.7749999999999986 Td
+(\(<= 6s p95 for two-source comparisons\), and stable error handling.) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.196 g
+56.6929133858267775 496.0632283464566399 Td
+(Keywords: ) Tj
+ET
+BT
+/F3 8.5 Tf
+9.7749999999999986 TL
+0.196 g
+107.7165354330708738 496.0632283464566399 Td
+(Price Comparison, E-Commerce, Artificial Intelligence, Vision-Language Models, CLIP, BLIP, Playwright, FastAPI.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+56.6929133858267775 467.716771653543276 Td
+(I. INTRODUCTION) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.216 g
+7.3593750000000249 Tw
+56.6929133858267775 453.5435433070865656 Td
+(The international spread of e-commerce sites has dramatically altered the way consumers buy, providing unparalleled access to) Tj
+7.9118750000000251 Tw
+0. -9.7749999999999986 Td
+(a staggering diversity of products. Yet the decentralized environment of the contemporary digital economy, controlled by giant) Tj
+7.037500000000021 Tw
+0. -9.7749999999999986 Td
+(retailers like Flipkart and Amazon, has brought with it an essential challenge: price and deal fragmentation. The shopper must) Tj
+7.4709375000000238 Tw
+0. -9.7749999999999986 Td
+(typically sort through a confusing array of fluctuating base prices, dynamic coupons, changing shipping charges, and inconstant) Tj
+0 Tw
+0. -9.7749999999999986 Td
+(seller reputation to find the actual value proposition of an offer.) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.216 g
+10.9316666666666986 Tw
+56.6929133858267775 382.6774015748030706 Td
+(State-of-the-art price comparison engines are myopically engineered; they are mostly keyword-based matching-oriented and) Tj
+6.7610526315789663 Tw
+0. -9.7749999999999986 Td
+(focus exclusively on the lowest sticker price \(Pmin\) as the top priority, thus overlooking vital drivers of final transactional cost.) Tj
+8.1678571428571747 Tw
+0. -9.7749999999999986 Td
+(These overlooked factors include variable costs \(dynamic shipping fees, time-sensitive coupons\) and trust parameters \(merchant) Tj
+8.3209375000000243 Tw
+0. -9.7749999999999986 Td
+(ratings, fulfillment guarantees\). Furthermore, traditional text inputs do not align with modern visual search habits. This paper) Tj
+9.877500000000019 Tw
+0. -9.7749999999999986 Td
+(presents Price Vision AI, an AI-based engine engineered to bridge these gaps through multimodal input and real-time) Tj
+0 Tw
+0. -9.7749999999999986 Td
+(Multi-Criteria Decision-Making \(MCDM\).) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.549 g
+278.5877952755905653 28.3466929133857093 Td
+(Page 1 of 2) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.549 g
+56.6929133858267775 28.3466929133857093 Td
+(IRJMETS Journal for Scientific Publication) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 6287
+>>
+stream
+0.5669291338582678 w
+0.71 G
+BT
+/F9 8 Tf
+9.1999999999999993 TL
+0.063 0.486 0.255 rg
+155.237795275590571 813.5435433070865656 Td
+(International Research Journal of Modernization in Engineering Technology and Science) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.431 g
+174.7127952755905653 802.2049606299212883 Td
+(e-ISSN: 2582-5208 | Volume:08/Issue:01/January-2026 | www.irjmets.com) Tj
+ET
+0.78 G
+0.5669291338582678 w
+56.6929133858267775 796.5356692913385359 m
+538.5826771653544256 796.5356692913385359 l
+S
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+56.6929133858267775 773.8585039370078675 Td
+(II. LITERATURE REVIEW) Tj
+ET
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+12.6291666666666718 Tw
+56.6929133858267775 759.6852755905511003 Td
+(The development of Price Vision AI leverages advancements in three different fields: multimodal) Tj
+21.0388888888888985 Tw
+0. -12.0749999999999993 Td
+(intelligence \(VLM\), dynamic web data extraction \(browser automation\), and multi-criteria) Tj
+11.7250000000000227 Tw
+0. -12.0749999999999993 Td
+(decision-making. Conventional price comparison models rely on keyword catalogs and APIs, omitting) Tj
+16.3205000000000133 Tw
+0. -12.0749999999999993 Td
+(hidden costs and vendor reliability. To address visual discovery, Contrastive Language-Image) Tj
+10.8563636363636515 Tw
+0. -12.0749999999999993 Td
+(Pre-training \(CLIP\) maps image vectors to text, and Bootstrapping Language-Image Pre-training \(BLIP\)) Tj
+11.6486363636363777 Tw
+0. -12.0749999999999993 Td
+(yields descriptive product captions to normalize naming variations across platforms. Dynamic scraper) Tj
+10.1004166666666801 Tw
+0. -12.0749999999999993 Td
+(engines using Playwright solve the limitation of static HTTP requests against JavaScript-rendered sites) Tj
+0 Tw
+0. -12.0749999999999993 Td
+(securely, enabling real-time capture of volatile prices, stock alerts, and promotional coupons.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+56.6929133858267775 641.7640157480315111 Td
+(III. PROPOSED METHODOLOGY & SYSTEM ARCHITECTURE) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+68.031496062992133 627.5907874015747439 Td
+(• Multimodal Recognition:) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+177.9957874015747734 627.5907874015747439 Td
+(Zero-shot product identification utilizing CLIP and BLIP vision-language models to extract) Tj
+T* (high-quality titles from user uploads with 90%+ accuracy.) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+68.031496062992133 598.1104724409448181 Td
+(• Asynchronous Data Fetching:) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+199.4157874015748177 598.1104724409448181 Td
+(Asynchronous Python \(asyncio\) combined with Playwright browser connectors) Tj
+T* (concurrently scrap Flipkart/Amazon in parallel.) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+68.031496062992133 568.6301574803148924 Td
+(• Best-Deal Scoring \(MCDM\):) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+189.0457874015748132 568.6301574803148924 Td
+(Implements a weighted Multi-Criteria Decision-Making \(MCDM\) model, calculating a single) Tj
+T* (final rank score \(Si\) based on Price, ETA, and Seller Rating using Min-Max scaling.) Tj
+ET
+BT
+/F2 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+68.031496062992133 539.1498425196849666 Td
+(• FastAPI & Distributed Queues:) Tj
+ET
+BT
+/F1 8.5 Tf
+9.7749999999999986 TL
+0.059 g
+202.3057874015747757 539.1498425196849666 Td
+(ASGI FastAPI backend serves low-latency requests in parallel. Redis is deployed for) Tj
+T* (scraped data caching and managing concurrent scraping tasks safely.) Tj
+ET
+BT
+/F2 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+56.6929133858267775 492.6616535433070112 Td
+(IV. RESULTS ANALYSIS & EXPERIMENTAL PERFORMANCE) Tj
+ET
+BT
+/F1 10.5 Tf
+12.0749999999999993 TL
+0.059 g
+11.5529166666666896 Tw
+56.6929133858267775 478.4884251968503008 Td
+(Extensive testing reveals highly competitive performance metrics. Price Vision AI achieved a Top-1) Tj
+9.2426923076923195 Tw
+0. -12.0749999999999993 Td
+(image recognition accuracy of 82.5% and a Top-3 accuracy exceeding 90%. Real-time data acquisition) Tj
+10.0613333333333372 Tw
+0. -12.0749999999999993 Td
+(across Flipkart and Amazon achieves an end-to-end response delay of <= 6 seconds at the 95th) Tj
+12.9372727272727381 Tw
+0. -12.0749999999999993 Td
+(percentile, with an average transaction scoring turnaround of 4.2s. Furthermore, the Redis-backed) Tj
+9.4203846153846218 Tw
+0. -12.0749999999999993 Td
+(scraper queue delivers an error recovery success rate above 95% using exponential network backoffs,) Tj
+0 Tw
+0. -12.0749999999999993 Td
+(effectively mitigating IP blocks and transient failures.) Tj
+ET
+BT
+/F2 9.5 Tf
+10.9249999999999989 TL
+0.059 g
+56.6929133858267775 390.0474803149604668 Td
+(V. CONCLUSION & REFERENCES) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.059 g
+8.2521428571428803 Tw
+56.6929133858267775 375.8742519685037564 Td
+(Price Vision AI demonstrates the immense viability of coupling multimodal computer vision with automated browser) Tj
+8.9243333333333457 Tw
+0. -10.9249999999999989 Td
+(scraper networks to empower online shoppers. By scaling from a simple lowest-sticker paradigm to a weighted) Tj
+10.0096428571428717 Tw
+0. -10.9249999999999989 Td
+(MCDM deal recommendation engine, it provides consumers with a transparent and smart overview of market) Tj
+0 Tw
+0. -10.9249999999999989 Td
+(deals. Future plans encompass integrating merchant APIs and adding personalized visual alerts.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.059 g
+56.6929133858267775 311.2443307086612094 Td
+([1] Radford, A. et al. 'Learning Transferable Visual Models From Natural Language Supervision', ICML, 2021.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.059 g
+56.6929133858267775 296.2207086614171203 Td
+([2] Li, J. et al. 'BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding',) Tj
+T* (ICML, 2022.) Tj
+ET
+BT
+/F1 9.5 Tf
+10.9249999999999989 TL
+0.059 g
+56.6929133858267775 270.4254330708658927 Td
+([3] Dr. Shashikumar D R, Prof. Sunil Kumar B, Shashank V et al. 'PRICE VISION AI', IRJMETS, Vol. 08, Jan 2026.) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.549 g
+278.5877952755905653 28.3466929133857093 Td
+(Page 2 of 2) Tj
+ET
+BT
+/F1 7.5 Tf
+8.625 TL
+0.549 g
+56.6929133858267775 28.3466929133857093 Td
+(IRJMETS Journal for Scientific Publication) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 4.2.1)
+/CreationDate (D:20261030174945+05'30')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000012384 00000 n 
+0000014209 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000005908 00000 n 
+0000006045 00000 n 
+0000012447 00000 n 
+0000012572 00000 n 
+0000012702 00000 n 
+0000012835 00000 n 
+0000012973 00000 n 
+0000013097 00000 n 
+0000013226 00000 n 
+0000013358 00000 n 
+0000013494 00000 n 
+0000013622 00000 n 
+0000013749 00000 n 
+0000013878 00000 n 
+0000014011 00000 n 
+0000014113 00000 n 
+0000014459 00000 n 
+0000014545 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <0A24E3824BA3900DA71C918C40894E9E> <0A24E3824BA3900DA71C918C40894E9E> ]
+>>
+startxref
+14649
+%%EOF
