@@ -1,52 +1,72 @@
-# Shashank V. — Developer Portfolio
+# Personal Portfolio
 
-A responsive, minimalist editorial portfolio built with React and Vite. It includes selected projects, experience, education, research publications, credential verification links, and a downloadable resume.
+Welcome to my personal portfolio website!
 
-## Run locally
+I'm an aspiring software developer passionate about building practical applications, exploring new technologies, and solving real-world problems.
+
+This website is a space where I showcase my journey, projects, technical skills, research work, and professional achievements.
+
+## About the Website
+
+My portfolio brings together:
+
+- **About Me** — My background, interests, and developer journey.
+- **Projects** — Applications and technical projects I've worked on.
+- **Publications** — My research papers and technical contributions.
+- **Certifications** — Courses, certifications, and achievements.
+- **Notes** — Technical learnings and ideas.
+- **Contact** — Ways to connect with me.
+
+## Built With
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+
+## Run Locally
+
+Want to explore or run the project on your machine?
 
 **Requirements:** Node.js 20.19+ or 22.12+.
 
 ```bash
+git clone https://github.com/Shashank-V21/shashank-portfolio.git
+cd shashank-portfolio
 npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite.
+Open the local URL displayed in your terminal.
 
-## Production build
+## Production Build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-The production output is generated in `dist/`.
+The production-ready files are generated in the `dist/` directory.
 
-## Content and assets
+## Project Structure
 
-- `src/data/site.js` — contact details, social links, and profile-photo path.
-- `src/data/projects.js` — project descriptions, technologies, highlights, and repository links.
-- `src/sections/Publications.jsx` — publication metadata and paper download links.
-- `src/sections/Certifications.jsx` — certification details and verification links.
-- `public/profile-photo.jpeg` — supplied professional portrait.
-- `public/resume.pdf` — supplied resume.
-- `public/papers/` — the two supplied research papers.
+```text
+src/
+├── components/   # Reusable UI components
+├── data/         # Portfolio content and project data
+├── sections/     # Website sections
+└── styles/       # Global styles
 
-Before publishing, verify all external links and add public repository/demo links for AI Smart Mirror and Price Vision AI if available. No repository links have been invented.
-
-## Deploy to Vercel
-
-Import the repository into Vercel and use build command `npm run build` and output directory `dist`.
-
-## Git workflow
-
-Use focused branches and pull requests for future changes. Example:
-
-```bash
-git switch -c feat/portfolio-content
-git add .
-git commit -m "feat: add portfolio publications and credentials"
-git push -u origin feat/portfolio-content
+public/           # Images, resume and research papers
+docs/             # Project documentation
 ```
 
-No backend is required; contact links use email and phone actions.
+## Connect With Me
+
+- GitHub: https://github.com/Shashank-V21
+- LinkedIn: https://www.linkedin.com/in/shashankv21/
+
+---
+
+*Thanks for visiting my portfolio! Feel free to explore my work and connect with me.*
