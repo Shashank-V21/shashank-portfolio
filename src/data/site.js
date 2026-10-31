@@ -1,5 +1,5 @@
 export const site = {
-  name: "Shashank V.",
+  name: "shashank V",
   role: "Aspiring Full-Stack Developer",
   location: "Bengaluru, India",
   availability: "Open to entry-level software opportunities",
