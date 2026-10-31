@@ -1380,3 +1380,28 @@ button {
     padding: 8px 14px;
   }
 }
+
+/* Center only the Projects section heading */
+
+#work .section-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  margin-bottom: 42px;
+}
+
+#work .section-index {
+  padding-top: 0;
+}
+
+#work .section-heading h2 {
+  text-align: center;
+}
+
+#work .section-description {
+  max-width: 650px;
+  margin: 14px auto 0;
+  text-align: center;
+}
