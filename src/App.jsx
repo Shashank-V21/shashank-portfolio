@@ -11,7 +11,9 @@ import Contact from "./sections/Contact";
 export default function App() {
   return (
     <>
-      <a className="skip-link" href="#main">Skip to content</a>
+      <a className="skip-link" href="#main">
+        Skip to content
+      </a>
       <Navbar />
       <main id="main">
         <Hero />
