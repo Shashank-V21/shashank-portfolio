@@ -3,7 +3,8 @@ import SectionHeading from "../components/SectionHeading";
 const certifications = [
   {
     number: "01",
-    title: "IoT (Internet of Things) Wireless & Cloud Computing Emerging Technologies",
+    title:
+      "IoT (Internet of Things) Wireless & Cloud Computing Emerging Technologies",
     issuer: "Coursera",
     date: "DECEMBER 2025",
     credential: "GZ4B1O6OI9X6",
@@ -31,17 +32,31 @@ export default function Certifications() {
   return (
     <section className="section section-tint" id="certifications">
       <div className="container">
-        <SectionHeading index="05" eyebrow="CERTIFICATIONS" title="Learning beyond the classroom." description="Credentials and job-simulation experience shared on my professional profile." />
+        <SectionHeading
+          title="Certifications"
+          description="Credentials and job-simulation experience shared on my professional profile."
+        />
         <div className="certification-list">
           {certifications.map((item) => (
             <article className="certification-card" key={item.number}>
               <span className="certification-number mono">{item.number}</span>
               <div className="certification-main">
                 <h3>{item.title}</h3>
-                <p>{item.issuer} <span>·</span> {item.date}</p>
-                <span className="credential-id mono">CREDENTIAL ID — {item.credential}</span>
+                <p>
+                  {item.issuer} <span>·</span> {item.date}
+                </p>
+                <span className="credential-id mono">
+                  CREDENTIAL ID — {item.credential}
+                </span>
               </div>
-              <a className="button button-quiet certification-link" href={item.href} target="_blank" rel="noreferrer">View credential <span>↗</span></a>
+              <a
+                className="button button-quiet certification-link"
+                href={item.href}
+                target="_blank"
+                rel="noreferrer"
+              >
+                View credential <span>↗</span>
+              </a>
             </article>
           ))}
         </div>
