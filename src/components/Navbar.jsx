@@ -23,7 +23,7 @@ export default function Navbar() {
           className="wordmark"
           href="#top"
           onClick={closeMenu}
-          aria-label={`${site.photoPath}, home`}
+          aria-label={`${site.name}, home`}
         >
           <img className="nav-profile-image" src={site.photoPath} alt="" />
           <span>
