@@ -23,10 +23,7 @@ export default function Education() {
   return (
     <section className="section section-tint" id="education">
       <div className="container">
-        <SectionHeading
-          title="Education"
-          description="My academic journey and the foundation behind my interest in software development."
-        />
+        <SectionHeading title="Education Journey" />
 
         <div className="education-list">
           {education.map((item) => (
