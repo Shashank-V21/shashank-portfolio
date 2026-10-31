@@ -25,7 +25,7 @@ export default function Navbar() {
           onClick={closeMenu}
           aria-label={`${site.name}, home`}
         >
-          <img className="nav-profile-image" src={site.photoPath} alt="" />
+          <img className="nav-profile-image" src={site.dpimage} alt="" />
           <span>
             {site.name}
             <span className="wordmark-dot"></span>
@@ -52,6 +52,7 @@ export default function Navbar() {
               {label}
             </a>
           ))}
+
           <a className="nav-resume" href={site.resumePath} onClick={closeMenu}>
             Resume <span>↗</span>
           </a>
