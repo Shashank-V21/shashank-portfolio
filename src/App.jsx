@@ -21,7 +21,6 @@ export default function App() {
         <Work />
         <Skills />
         <Education />
-        <Notes />
         <Publications />
         <Certifications />
         <Notes />

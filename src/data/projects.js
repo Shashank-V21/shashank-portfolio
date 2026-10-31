@@ -51,7 +51,7 @@ export const projects = [
     period: "JUN 2025 — DEC 2025",
     image: "/price-vision-ai.png",
     description:
-      "Developed an AI-powered product discovery and price-comparison system that uses an uploaded product image to identify items and compare offers across e-commerce platforms.",
+      "Researched and designed an AI-powered product discovery and price-comparison system that uses product images to explore product identification and cross-platform offer comparison.",
     highlights: [
       "The research design describes CLIP/BLIP-based product recognition and product-information normalization.",
       "The proposed comparison workflow considers price, delivery time, and seller rating using a multi-criteria scoring approach.",

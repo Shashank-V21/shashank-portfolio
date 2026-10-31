@@ -4,7 +4,7 @@ export default function Notes() {
   return (
     <section className="section container" id="notes">
       <div className="section-heading">
-        <span className="mono section-index">03</span>
+        <span className="mono section-index"></span>
 
         <div className="interest-intro">
           <SectionHeading

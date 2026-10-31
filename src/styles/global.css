@@ -364,15 +364,15 @@ button {
 ============================== */
 
 .section {
-  padding-top: 5px;
-  padding-bottom: 30px;
+  padding-top: 42px;
+  padding-bottom: 48px;
 }
 
 .section-heading {
   display: grid;
   grid-template-columns: 1fr 2.2fr;
   gap: 30px;
-  margin-bottom: 38px;
+  margin-bottom: 30px;
 }
 
 .section-index {
@@ -904,20 +904,20 @@ button {
 }
 
 #notes .interest-intro {
-  width: 100%;
+  width: 59%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* text-align: center; */
 }
 
 #notes .interest-intro > * {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* text-align: center; */
 }
 
 #notes .interest-intro h2 {
@@ -1406,11 +1406,11 @@ button {
   align-items: center;
   text-align: center;
   gap: 12px;
-  margin-bottom: 42px;
+  margin-bottom: 32px;
 }
 
 #publications .section-heading {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 
 #work .section-index,
@@ -1634,12 +1634,12 @@ button {
   }
 
   .section {
-    padding-top: 58px;
-    padding-bottom: 62px;
+    padding-top: 42px;
+    padding-bottom: 46px;
   }
 
   .section-heading {
-    margin-bottom: 28px;
+    margin-bottom: 24px;
   }
 
   .section-heading h2 {
@@ -1827,5 +1827,253 @@ button {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
+  }
+}
+
+/* ==============================
+   Spacing and alignment refinements
+   Preserve the existing visual design
+============================== */
+
+.section-heading {
+  align-items: start;
+}
+
+.projects-editorial-grid {
+  row-gap: 38px;
+}
+
+.skills-grid {
+  gap: 18px;
+}
+
+.education-card {
+  padding-block: 18px;
+}
+
+#notes .note-row {
+  padding-block: 20px;
+}
+
+.publication-card,
+.certification-card {
+  padding-block: 18px 22px;
+}
+
+@media (max-width: 800px) {
+  .section {
+    padding-block: 36px 42px;
+  }
+
+  .section-heading {
+    margin-bottom: 26px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding-block: 32px 38px;
+  }
+
+  .projects-editorial-grid {
+    row-gap: 30px;
+  }
+
+  .education-card {
+    padding-block: 18px;
+  }
+
+  #notes .note-row {
+    padding-block: 18px;
+  }
+}
+/* ==============================
+   Spacing and Alignment Refinements
+   Preserves the existing visual design
+============================== */
+
+/* Consistent section spacing */
+.section {
+  padding-top: 36px;
+  padding-bottom: 42px;
+}
+
+/* Better heading alignment */
+.section-heading {
+  align-items: start;
+  margin-bottom: 26px;
+}
+
+.section-index {
+  padding-top: 8px;
+}
+
+/* Projects */
+.projects-editorial-grid {
+  row-gap: 38px;
+}
+
+.project-card-editorial {
+  gap: clamp(24px, 4vw, 56px);
+}
+
+.project-card-editorial .project-art {
+  height: 270px;
+}
+
+/* Skills */
+.skills-grid {
+  gap: 18px;
+  margin-top: 32px;
+}
+
+.skills-card {
+  padding: 24px;
+}
+
+.skills-card-top {
+  margin-bottom: 22px;
+}
+
+/* Experience and education */
+.experience-strip {
+  margin-top: 38px;
+  padding-top: 20px;
+}
+
+.education-strip {
+  margin-top: 28px;
+  padding-top: 20px;
+}
+
+.education-card {
+  padding-block: 18px;
+}
+
+/* Notes / Interests */
+#notes > .section-heading {
+  margin-bottom: 22px;
+}
+
+#notes .note-row {
+  padding-block: 20px;
+}
+
+/* Publications and certifications */
+.publication-card {
+  padding-block: 20px 22px;
+}
+
+.certification-card {
+  padding-block: 16px;
+}
+
+/* Keep project images clear of decorative circles */
+.project-art:has(.project-image)::before,
+.project-art:has(.project-image)::after {
+  display: none;
+}
+
+.project-image {
+  position: relative;
+  z-index: 1;
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+  .section {
+    padding-block: 32px 38px;
+  }
+
+  .section-heading {
+    margin-bottom: 24px;
+  }
+
+  .project-card-editorial {
+    gap: 18px;
+  }
+
+  .project-card-editorial .project-art {
+    height: 260px;
+  }
+
+  .skills-grid {
+    margin-top: 26px;
+  }
+
+  .experience-strip {
+    margin-top: 30px;
+  }
+
+  .education-strip {
+    margin-top: 24px;
+  }
+
+  .education-card {
+    padding-block: 18px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .section {
+    padding-block: 30px 34px;
+  }
+
+  .section-heading {
+    margin-bottom: 22px;
+  }
+
+  .section-heading h2 {
+    line-height: 1.12;
+  }
+
+  .projects-editorial-grid {
+    row-gap: 30px;
+  }
+
+  .project-card-editorial .project-art {
+    height: 230px;
+  }
+
+  .skills-grid {
+    gap: 14px;
+    margin-top: 22px;
+  }
+
+  .skills-card {
+    padding: 20px;
+  }
+
+  .experience-strip {
+    margin-top: 26px;
+  }
+
+  .education-strip {
+    margin-top: 22px;
+  }
+
+  .education-card {
+    padding-block: 16px;
+  }
+
+  #notes > .section-heading {
+    margin-bottom: 20px;
+  }
+
+  #notes .note-row {
+    padding-block: 17px;
+  }
+
+  .publication-card {
+    padding-block: 17px;
+  }
+
+  .certification-card {
+    padding-block: 16px;
+  }
+
+  .contact-section {
+    padding-block: 46px 50px;
   }
 }

@@ -40,8 +40,8 @@ export default function Skills() {
     <section className="section" id="skills">
       <div className="container">
         <SectionHeading
-          title="Technologies I work with."
-          description="A growing toolkit of programming languages, development technologies, tools, and computer science fundamentals."
+          title="Technologies I work with"
+          description="Programming languages, development technologies, tools, and computer science fundamentals."
         />
 
         <div className="skills-grid">
