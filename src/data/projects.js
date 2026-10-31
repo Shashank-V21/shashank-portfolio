@@ -5,6 +5,7 @@ export const projects = [
     name: "AI Smart Mirror",
     category: "EMBEDDED SYSTEMS · COMPUTER VISION",
     period: "OCT 2022 — APR 2023",
+    image: "/AI-Smart-Mirror .png",
     description:
       "Built a multimodal smart-mirror interface on Raspberry Pi 3B+, combining facial recognition, voice commands, and gesture-based controls.",
     highlights: [
@@ -22,6 +23,7 @@ export const projects = [
     name: "Deepfake Detection System",
     category: "DEEP LEARNING · COMPUTER VISION",
     period: "JUN 2025 — DEC 2025",
+    image: "/deepfake-detection.png",
     description:
       "Developed a deep-learning application that classifies uploaded videos as real or fake using face detection, feature extraction, and classification.",
     highlights: [
@@ -29,7 +31,15 @@ export const projects = [
       "Applied an SVM classifier to extracted features and majority voting for the final video prediction.",
       "Built a Tkinter desktop GUI for video uploads and detection results.",
     ],
-    stack: ["Python", "TensorFlow / Keras", "OpenCV", "Scikit-learn", "MTCNN", "Xception", "Tkinter"],
+    stack: [
+      "Python",
+      "TensorFlow / Keras",
+      "OpenCV",
+      "Scikit-learn",
+      "MTCNN",
+      "Xception",
+      "Tkinter",
+    ],
     href: "https://github.com/Shashank-V21/Deepfake-detection",
     linkLabel: "View repository",
   },
@@ -39,6 +49,7 @@ export const projects = [
     name: "Price Vision AI",
     category: "AI-POWERED PRODUCT DISCOVERY",
     period: "JUN 2025 — DEC 2025",
+    image: "/price-vision-ai.png",
     description:
       "Developed an AI-powered product discovery and price-comparison system that uses an uploaded product image to identify items and compare offers across e-commerce platforms.",
     highlights: [
@@ -46,7 +57,15 @@ export const projects = [
       "The proposed comparison workflow considers price, delivery time, and seller rating using a multi-criteria scoring approach.",
       "The research paper describes a FastAPI backend, Playwright-based data collection, React frontend, and Redis/PostgreSQL data management.",
     ],
-    stack: ["Python", "FastAPI", "CLIP / BLIP", "Playwright", "React", "Redis", "PostgreSQL"],
+    stack: [
+      "Python",
+      "FastAPI",
+      "CLIP / BLIP",
+      "Playwright",
+      "React",
+      "Redis",
+      "PostgreSQL",
+    ],
     href: "",
     linkLabel: "",
   },

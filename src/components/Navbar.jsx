@@ -2,8 +2,8 @@ import { useState } from "react";
 import { site } from "../data/site";
 
 const links = [
-  ["About", "#about"],
   ["Projects", "#work"],
+  ["Skills", "#skills"],
   ["Publications", "#publications"],
   ["Certifications", "#certifications"],
   ["Contact", "#contact"],
