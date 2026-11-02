@@ -2341,3 +2341,45 @@ button {
     font-size: 10px;
   }
 }
+
+/* Notes section — mobile typography */
+@media (max-width: 600px) {
+  #notes .section-heading {
+    margin-bottom: 32px;
+  }
+
+  #notes .interest-intro {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #notes .interest-intro h2 {
+    font-size: clamp(30px, 8vw, 38px);
+    line-height: 1.15;
+    letter-spacing: -0.04em;
+    text-align: left;
+    max-width: 320px;
+  }
+
+  #notes .interest-intro p {
+    max-width: 340px;
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  #notes .notes-list {
+    margin-top: 28px;
+  }
+
+  #notes .note-row h3 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+
+  #notes .note-row p {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+}
