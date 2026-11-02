@@ -4,7 +4,7 @@ Welcome to my personal portfolio website!
 
 I'm an aspiring software developer passionate about building practical applications, exploring new technologies, and solving real-world problems.
 
-This website is a space where I showcase my journey, projects, technical skills, research work, and professional achievements.
+This portfolio showcases my developer journey, projects, technical skills, internship experience, research work, and professional achievements.
 
 ## About the Website
 
@@ -12,6 +12,9 @@ My portfolio brings together:
 
 - **About Me** — My background, interests, and developer journey.
 - **Projects** — Applications and technical projects I've worked on.
+- **Skills** — Programming languages, frameworks, tools, and technical fundamentals.
+- **Experience** — My internship experience and practical development exposure.
+- **Education** — My academic background.
 - **Publications** — My research papers and technical contributions.
 - **Certifications** — Courses, certifications, and achievements.
 - **Notes** — Technical learnings and ideas.
@@ -64,8 +67,8 @@ docs/             # Project documentation
 
 ## Connect With Me
 
-- GitHub: https://github.com/Shashank-V21
-- LinkedIn: https://www.linkedin.com/in/shashankv21/
+- **GitHub:** https://github.com/Shashank-V21
+- **LinkedIn:** https://www.linkedin.com/in/shashankv21/
 
 ---
 
