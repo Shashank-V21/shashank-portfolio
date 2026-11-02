@@ -1,38 +1,42 @@
 # Personal Portfolio
 
-Welcome to my personal portfolio website!
+Welcome to my personal portfolio! 👋
 
-I'm an aspiring software developer passionate about building practical applications, exploring new technologies, and solving real-world problems.
+I'm an aspiring software developer interested in building practical applications, exploring emerging technologies, and solving real-world problems through code.
 
-This portfolio showcases my developer journey, projects, technical skills, internship experience, research work, and professional achievements.
+This portfolio showcases my development journey, technical skills, projects, experience, and research work.
 
-## About the Website
+## 🌐 Explore My Portfolio
 
-My portfolio brings together:
+**Live Website:** [shashank-portfolio-pied.vercel.app](https://shashank-portfolio-pied.vercel.app/)
 
-- **About Me** — My background, interests, and developer journey.
+## 📌 What's Inside
+
+- **About Me** — My background, interests, and journey as a developer.
+- **Skills** — Programming languages, technologies, and core concepts.
 - **Projects** — Applications and technical projects I've worked on.
-- **Skills** — Programming languages, frameworks, tools, and technical fundamentals.
-- **Experience** — My internship experience and practical development exposure.
+- **Experience** — My internship experience and practical learning.
 - **Education** — My academic background.
-- **Publications** — My research papers and technical contributions.
+- **Publications** — Research papers and technical contributions.
 - **Certifications** — Courses, certifications, and achievements.
 - **Notes** — Technical learnings and ideas.
 - **Contact** — Ways to connect with me.
 
-## Built With
+## 🛠️ Built With
 
-- React
-- JavaScript
-- HTML5
-- CSS3
-- Vite
+| Technology | Purpose |
+|---|---|
+| React | User interface |
+| JavaScript | Application functionality |
+| HTML5 | Page structure |
+| CSS3 | Styling and responsive design |
+| Vite | Development and build tooling |
 
-## Run Locally
+## 🚀 Run Locally
 
-Want to explore or run the project on your machine?
+Want to run the portfolio on your machine?
 
-**Requirements:** Node.js 20.19+ or 22.12+.
+**Prerequisites:** Node.js 20.19+ or 22.12+.
 
 ```bash
 git clone https://github.com/Shashank-V21/shashank-portfolio.git
@@ -43,7 +47,9 @@ npm run dev
 
 Open the local URL displayed in your terminal.
 
-## Production Build
+## 🏗️ Production Build
+
+Create and preview a production build:
 
 ```bash
 npm run build
@@ -52,7 +58,7 @@ npm run preview
 
 The production-ready files are generated in the `dist/` directory.
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 src/
@@ -61,15 +67,17 @@ src/
 ├── sections/     # Website sections
 └── styles/       # Global styles
 
-public/           # Images, resume and research papers
+public/           # Static assets and documents
 docs/             # Project documentation
 ```
 
-## Connect With Me
+*Folder descriptions are illustrative; update them if your actual project structure differs.*
 
-- **GitHub:** https://github.com/Shashank-V21
-- **LinkedIn:** https://www.linkedin.com/in/shashankv21/
+## 🤝 Connect With Me
+
+- **GitHub:** [Shashank-V21](https://github.com/Shashank-V21)
+- **LinkedIn:** [Shashank V](https://www.linkedin.com/in/shashankv21/)
 
 ---
 
-*Thanks for visiting my portfolio! Feel free to explore my work and connect with me.*
+⭐ Thanks for visiting my portfolio! Feel free to explore my work and connect with me.
