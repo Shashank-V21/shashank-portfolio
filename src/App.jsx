@@ -8,6 +8,7 @@ import Certifications from "./sections/Certifications";
 import Contact from "./sections/Contact";
 import Skills from "./sections/Skills";
 import Education from "./sections/Education";
+import Experience from "./sections/Experience.jsx";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Hero />
         <Work />
         <Skills />
+        <Experience />
         <Education />
         <Publications />
         <Certifications />

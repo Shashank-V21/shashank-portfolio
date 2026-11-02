@@ -4,6 +4,7 @@ import { site } from "../data/site";
 const links = [
   ["Projects", "#work"],
   ["Skills", "#skills"],
+  ["Exerience", "#exerience"],
   ["Publications", "#publications"],
   ["Certifications", "#certifications"],
   ["Contact", "#contact"],
